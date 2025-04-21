@@ -62,13 +62,16 @@ const Musicas = () => {
                 <h2 className='text-textColor w-[85%] mx-auto text-[1.5rem] lg:text-[2rem]'>Aprende as letra pra se esguelar nos shows!</h2>
             </div>
 
-            <MusicCard title={'momento errado pra se estar no escuro'} video={momentoErrado} letra={lme} />
+            <div className="lg:flex lg:flex-col">
+                <MusicCard title={'momento errado pra se estar no escuro'} video={momentoErrado} letra={lme} />
 
-            <MusicCard title={'letargia'} video={letargia} letra={lletargia}/>
+                <MusicCard title={'letargia'} video={letargia} letra={lletargia}/>
 
-            <MusicCard title={'entralaçamento quântico'} video={entrelacamento} letra={lentrelacamento}/>
+                <MusicCard title={'entralaçamento quântico'} video={entrelacamento} letra={lentrelacamento}/>
 
-            <MusicCard title={'ponto cego'} video={pc} letra={lpc}/>
+                <MusicCard title={'ponto cego'} video={pc} letra={lpc}/>
+
+            </div>
 
             <Footer />
 

@@ -28,7 +28,7 @@ function App() {
         <Header isFrontPage={true} />
 
         {/* logotipo */}
-        <img src={logo} alt='logo da detrito espacial' className='w-[85vw] h-auto pt-[5vh] mx-auto lg:flex lg:w-[45vw] lg:pt-0' style={{
+        <img src={logo} alt='logo da detrito espacial' className='w-[85vw] h-auto mx-auto lg:flex lg:w-[45vw] lg:pt-0' style={{
           transform: `translate(${mousePosition.x * 0.02}px, ${mousePosition.y * 0.02}px)`,
         }}/>
 
