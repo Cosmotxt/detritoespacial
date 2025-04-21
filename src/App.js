@@ -45,7 +45,7 @@ function App() {
         {/* Chamado pra rolar a página */}
         <div className=''>
           <p className='text-textColor text-center text-2xl justify-center mt-[3vh] shadow-lg font-almarai hidden lg:flex'>Role e descubra um mundo</p>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='fill-[#D9D9D9] animate-bounce mx-auto w-12 h-auto mt-60 lg:flex lg:mt-0'><path d="M16.939 7.939 12 12.879l-4.939-4.94-2.122 2.122L12 17.121l7.061-7.06z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='fill-[#D9D9D9] animate-bounce mx-auto w-10 h-auto mt-24 lg:flex lg:mt-0'><path d="M16.939 7.939 12 12.879l-4.939-4.94-2.122 2.122L12 17.121l7.061-7.06z"></path></svg>
         </div>
       </section>
 
