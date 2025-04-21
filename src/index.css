@@ -13,3 +13,9 @@ body {
   background-attachment: fixed;
   height: 100dvh;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+}

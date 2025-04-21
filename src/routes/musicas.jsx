@@ -58,8 +58,8 @@ const Musicas = () => {
         <div>
             <Header />
             <div className='flex flex-col gap-4 text-center bg-black'>
-                <h1 className='text-textColor uppercase leading-none font-bold text-[2rem] lg:text-[4rem]'>Músicas não lançadas <span className="text-redDetrito">(ainda)</span></h1>
-                <h2 className='text-textColor w-[85%] mx-auto text-[1.5rem] lg:text-[2rem]'>Aprende as letra pra se esguelar nos shows!</h2>
+                <h1 className='text-textColor uppercase leading-none font-bold text-[2.5rem] lg:text-[4rem]'>Músicas não lançadas <span className="text-redDetrito">(ainda)</span></h1>
+                <h2 className='text-textColor w-[85%] mx-auto text-[1.1rem] lg:text-[2rem]'>Aprende as letra pra se esguelar nos shows!</h2>
             </div>
 
             <div className="lg:flex lg:flex-col">
